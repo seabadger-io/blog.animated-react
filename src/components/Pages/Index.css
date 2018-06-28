@@ -1,0 +1,13 @@
+.Index {
+  text-align: center;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.Index p {
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px #000;
+  max-width: 300px;
+  padding: 20px;
+}

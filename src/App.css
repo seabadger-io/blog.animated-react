@@ -1,0 +1,7 @@
+.App {
+  min-height: 100vh;
+  max-width: 800px;
+  background-color: #fff;
+  margin: auto;
+  box-sizing: border-box;
+}

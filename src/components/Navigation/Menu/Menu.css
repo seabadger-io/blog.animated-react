@@ -1,0 +1,40 @@
+.Menu {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1.5em;
+  background: radial-gradient(at 50% 0, #d6e5eb, transparent 70%),
+    linear-gradient(0deg, #d6e5eb, transparent 50%) bottom;
+}
+
+.SideDrawerToggle {
+  text-align: center;
+  font-size: 1.8em;
+  box-shadow: 0 2px 4px #000;
+  border-radius: 50%;
+  border: none;
+  background-color: #2f4f4f;
+  color: #d6e5eb;
+  cursor: pointer;
+}
+
+.MenuItems {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  display: none;
+}
+
+@media (min-width: 500px) {
+  .SideDrawerToggle {
+    display: none;
+  }
+
+  .MenuItems {
+    display: flex;
+    flex-flow: row;
+  }
+}
