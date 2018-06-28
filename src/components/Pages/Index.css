@@ -2,12 +2,20 @@
   text-align: center;
   margin: 20px;
   box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.Index h1 {
+  flex-basis: 100%;
 }
 
 .Index p {
   text-align: left;
   border-radius: 10px;
   box-shadow: 0 2px 4px #000;
-  max-width: 300px;
+  max-width: 200px;
   padding: 20px;
+  flex-basis: 100%;
 }

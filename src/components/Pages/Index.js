@@ -9,6 +9,12 @@ const index = (props) => {
       <p>
         A little project focusing on CSS animation and react
       </p>
+      <p>
+        Mostly just for fun and because why not?
+      </p>
+      <p>
+        There is always room for a little moving
+      </p>
     </div>
   );
 };
