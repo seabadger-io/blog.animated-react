@@ -1,0 +1,10 @@
+.PageLoader {
+  animation-name: pageLoader;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes pageLoader {
+  0% { opacity: 0; }
+  100% {  opacity: 1; }
+}
